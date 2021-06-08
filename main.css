@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body header navbar ul li a {
+  font-family: "Dosis", sans-serif;
+  text-decoration: none;
+}
+
+.header {
+  background: url(https://i.ibb.co/KD9SFf1/header-2.jpg) no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  clip-path: polygon(0 0, 100% 0, 100% 69%, 0 97%);
+  width: 100%;
+  height: 550px;
+  position: relative;
+}
+
+#head {
+  filter: drop-shadow(-1px 3px 3px #915e06a4);
+}
+
+.header-content {
+  position: absolute;
+  top: 150px;
+  bottom: 48px;
+  left: 100px;
+  right: 48px;
+}
+
+.header-content-title {
+  position: absolute;
+  color: rgb(20, 20, 20);
+  font-size: 100px;
+  font-family: "Averia Libre", cursive;
+  background: linear-gradient(to right, #d10e4c 0%, #f3bcbc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 2px #915e06d0;
+}
+
+.button {
+  background-color: #eeb6b6;
+  border-radius: 30%;
+  border-color: #915e0680;
+  padding: 15px;
+  font-size: 15px;
+  color: #664204;
+  text-align: center;
+  position: absolute;
+  top: 68.5%;
+  left: 50%;
+  transform: (-50%, -50%);
+}
+
+a {
+  color: #9b6509f8;
+}
+
+a:visited {
+  color: #9b6509f8;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  position: fixed;
+}
+
+li {
+  margin: 0 20px 0 20px;
+  font-size: 30px;
+}
+
+h1,
+h2 {
+  font-family: "Courgette", cursive;
+  background-color: blue;
+}
+
+h3 {
+  font-family: "Sacramento", cursive;
+  background-color: blueviolet;
+}
