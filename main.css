@@ -55,13 +55,12 @@ body header navbar ul li a {
   transform: (-50%, -50%);
 }
 
-a {
+a.navibar {
   color: #9b6509f8;
 }
 
-a:visited {
+a.navibar:visited {
   color: #9b6509f8;
-  text-decoration: none;
 }
 
 ul {
@@ -109,16 +108,17 @@ li {
   color: #bd174c;
   display: flex;
   justify-content: center;
-  margin-top: 5%;
+  margin: 15% 0 0 0;
 }
 
 .contact-section-header {
   font-family: "Courgette", cursive;
-  font-size: 30px;
+  font-size: 26px;
   color: #bd174c;
   display: flex;
   justify-content: center;
   margin-top: 5%;
+  margin-left: 0;
 }
 
 .row {
@@ -129,7 +129,7 @@ li {
 
 .article {
   flex: 1;
-  margin-right: 48px;
+  margin-right: 60px;
 }
 
 .article:last-child {
@@ -137,8 +137,8 @@ li {
 }
 
 .article img {
-  width: 80%;
-  height: 80%;
+  width: 60%;
+  height: 60%;
   justify-content: center;
 }
 
@@ -149,6 +149,35 @@ li {
   text-align: center;
 }
 
+
+
+#contact {
+  display: flex;  
+  justify-content: space-evenly;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 15%;
+}
+
 #contact-links {
-  margin: 0 5% 2% 5%;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 10px 0 5px 0;
+}
+
+.contact-details {
+  font-size: 26px;
+  text-shadow: 2px 2px 15px #ff1f66;
+  color:rgb(20, 20, 20);
+  
+}
+
+.contact-details:visited {
+  color: #8d133a;
+}
+
+.contact-details:hover {
+  transform: translateY(4px);
 }
